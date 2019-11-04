@@ -9,7 +9,53 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerUpdate", 
+        "Elements", 
+        "inptOld.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerUpdate", 
+        "Elements", 
+        "inptNew.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerUpdate", 
+        "Elements", 
+        "txtNames1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerUpdate", 
+        "Elements", 
+        "inptSubmit11.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerUpdate", 
+        "Elements", 
+        "txtResults11.json"
+      ]
+    }
+  ], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
@@ -24,7 +70,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "customerUpdate.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
