@@ -9,7 +9,44 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerSelect", 
+        "Elements", 
+        "inptState.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerSelect", 
+        "Elements", 
+        "btnSubmit.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerSelect", 
+        "Elements", 
+        "txtState.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "customerSelect", 
+        "Elements", 
+        "txtResults.json"
+      ]
+    }
+  ], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
@@ -23,8 +60,8 @@
   "modal": "false", 
   "onhide": "", 
   "onkeypress": "", 
-  "onresize": "", 
-  "onshow": "", 
+  "onresize": "txtResults.onresize()", 
+  "onshow": "customerSelect.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
